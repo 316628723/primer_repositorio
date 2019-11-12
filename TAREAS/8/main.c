@@ -6,10 +6,10 @@ int main(int argc, char *argv[]){
 	double x;
 	double y;
 	double z;
-	//convertir argumentos a flotantes
+	//convertir argumentos a dobles
 	x=atof(argv[1]);
 	y=atof(argv[2]);
-	//de grados farenheit a celcius, sera 1
+	//de grados farenheit a celcius, sera diferente de 0
 	if(x!=0){
 		z=(y-32)/1.8;
 		printf("%.2lf\n",z);
