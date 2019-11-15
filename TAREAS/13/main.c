@@ -11,7 +11,7 @@ void burbuja(int*item, int cont){//ordenar menor a mayor metodo de la burbuja
 			item[j-1]=item[j];
 			item[j]=temp;
 			ordenado++;
-		}
+	}
 	}
 	if(ordenado==0);//el ordenado dejara de ordenar hasta que llegue a 0
 	break;
